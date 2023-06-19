@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <title>Freetop1免費第一 - 加入會員</title>
+  <link href='stylesheets/all.css' media='screen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <main class="container">
+    <div class="form row">
+      <a href="index.html" class="logo mx-auto my-3">
+        <img src="images/logo.png" alt="Freetop1免費第一">
+      </a>
+      <p class="text-center">加入Freetop1免費第一會員</p>
+      <hr>
+      <form class="row g-2 needs-validation" novalidate action="">
+        <div class="col-12">
+          <label for="id-phone" class="form-label">手機號碼</label>
+          <input type="tel" class="form-control" id="id-phone" placeholder="0911000111" required>
+          <small class="text-secondary">手機號碼等於會員帳號，註冊需接收簡訊驗證</small>
+        </div>
+        <div class="col-12">
+          <label for="id-name" class="form-label">姓名或暱稱</label>
+          <input type="text" class="form-control" id="id-name" placeholder="" required>
+        </div>
+        <div class="col-12">
+          <label for="id-email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="id-email" placeholder="" required>
+          <small class="text-secondary">忘記密碼時，供密碼更改使用</small>
+        </div>
+        <div class="col-12">
+          <label for="password-1" class="form-label">會員密碼</label>
+          <input type="password" class="form-control" id="password-1" placeholder="" required>
+        </div>
+        <div class="col-12">
+          <label for="password-2" class="form-label">確認會員密碼</label>
+          <input type="password" class="form-control" id="password-2" placeholder="" required>
+        </div>
+        <div class="col-7">
+          <label for="authentication" class="form-label">認證碼</label>
+          <input type="text" class="form-control" id="authentication" placeholder="" required>
+        </div>
+        <div class="col-5 d-grid align-self-end">
+          <button class="btn btn-primary" id="massage" type="button"><span id="timer"></span>發送簡訊</button>
+        </div>
+        <div class="col-12 d-grid mt-3">
+          <button class="btn btn-primary" type="submit">確認註冊</button>
+        </div>
+        <div class="col-12">
+          <a class="remind" href="sign-in.html"><small>？已經是會員了請登入</small></a>
+        </div>
+      </form>
+    </div>
+    <footer class="footer mt-auto">
+      <hr class="my-5">
+      <small>©2022 Freetop1 免費第一</small>
+    </footer>
+  </main>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+</body>
+</html>

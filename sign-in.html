@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <title>Freetop1免費第一 - 登入會員</title>
+  <link href='stylesheets/all.css' media='screen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <main class="container">
+    <div class="form row">
+      <a href="index.html" class="logo mx-auto my-3">
+        <img src="images/logo.png" alt="Freetop1免費第一">
+      </a>
+      <p class="text-center">登入會員</p>
+      <hr>
+      <form class="row g-2 needs-validation" novalidate action="">
+        <div class="col-12">
+          <label for="id-phone" class="form-label">會員帳號</label>
+          <input type="tel" class="form-control" id="id-phone" placeholder="0911000111" required>
+          <small class="text-secondary">會員帳號為您註冊之手機號碼</small>
+        </div>
+        <div class="col-12">
+          <label for="password" style="width:100%;" class="form-label">會員密碼 <a class="float-end" href="forget-password.html"><small>忘記密碼？</small></a></label>
+          <input type="password" class="form-control" id="password" placeholder="" required>
+        </div>
+        <div class="col-12 d-grid mt-3">
+          <button class="btn btn-primary" type="submit">確認登入</button>
+        </div>
+        <div class="col-12">
+          <a class="remind" href="sign-up.html"><small>？還不是會員</small></a>
+        </div>
+      </form>
+    </div>
+    <footer class="footer mt-auto">
+      <hr class="my-5">
+      <small>©2022 Freetop1 免費第一</small>
+    </footer>
+  </main>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+</body>
+</html>
